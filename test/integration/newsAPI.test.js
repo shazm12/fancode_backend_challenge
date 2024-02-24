@@ -13,7 +13,7 @@ describe("Tests for News Entity Endpoint in the API", () => {
   });
 
   it("Should return a 200 and Return the news for the expected sport ID", async () => {
-    const response = await request(app).get("/sport/news");
+    const response = await request(app).get("/sport/news?id=1");
     const expectedNewsSportIDObj = {
       newsId: 2,
       title: "DLF Invests heavily on IPL",
@@ -27,7 +27,7 @@ describe("Tests for News Entity Endpoint in the API", () => {
   });
 
   it("Should return a 200 and Return the news for the expected match ID", async () => {
-    const response = await request(app).get("/match/news");
+    const response = await request(app).get("/match/news?id=1");
     const expectedNewsMatchIDObj = {
       newsId: 1,
       title: "Will CSK Win?",
@@ -40,7 +40,7 @@ describe("Tests for News Entity Endpoint in the API", () => {
   });
 
   it("Should return a 200 and Return the news for the expected tour ID", async () => {
-    const response = await request(app).get("/tour/news");
+    const response = await request(app).get("/tour/news?id=2");
     const expectedNewsTourIdObj = {
       newsId: 2,
       title: "DLF Invests heavily on IPL",
