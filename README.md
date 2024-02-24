@@ -13,6 +13,8 @@ For this i have written the query for creating a new table  `news` with the requ
 2. News By Tour ID.
 3. News By Sport ID.
 
+# Testing
+I have written the test cases for the new News API functionality in the `newsAPI.test.js` in `test/integration` folder. I am testing if  i get the correct status code and just checking if it returns the correct data back as response for the specified id.
 
 # Feedback and Contact
 I will like to say the codebase provided was really well structured and well written following all the conventions and design patterns for a MVC based Backend Application. I also really liked how Docker Compose was leveraged by the team to get me easily started with testing and developing this app with the ease of just running one command.
