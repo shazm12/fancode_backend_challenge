@@ -8,7 +8,7 @@ Now after looking at the controller and model files for the **tours** entity I u
 For second one I just added more the required columns that needs to be fetched from the matches table in the given query in function `getAllSportsToursAndMatches` present `/models/sports.js`.
 
 # Problem Statment 3 Approach
-For this i have written the query for creating a new table  with the required columns `news` in `base.sql` and then created all the controller modules and model modules for serveral endpoints to fetch for the following :-
+For this i have written the query for creating a new table  `news` with the required columns in `base.sql` and then created all the controller modules and model modules for serveral endpoints to fetch for the following :-
 1. News By match ID.
 2. News By Tour ID.
 3. News By Sport ID.
