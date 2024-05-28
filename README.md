@@ -20,3 +20,5 @@ I have written the test cases for the new News API functionality in the `newsAPI
 I will like to say the codebase provided was really well structured and well written following all the conventions and design patterns for a MVC based Backend Application. I also really liked how Docker Compose was leveraged by the team to get me easily started with testing and developing this app with the ease of just running one command.
 
 For further communication, please contact me via mail: [berashamik115@gmail.com](mailto:berashamik115@gmail.com).
+[Linkedin](https://www.linkedin.com/in/shamik-bera/)
+[Portfolio](https://shamikthefulldev.netlify.app/)
